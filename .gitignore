@@ -30,3 +30,6 @@ assets/js/dist
 *~
 .DS_Store
 Thumbs.db
+
+# 나만 보는 초안(로컬 전용) — 절대 GitHub에 올리지 않음
+_drafts/
