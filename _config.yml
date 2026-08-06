@@ -19,7 +19,7 @@ title: beginner-driver # the main title
 tagline: AI를 공부하며 남기는 생각과 도구 활용 기록 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  AI를 공부하는 학생의 아이디어 메모와 Claude 스킬 등 AI 툴 활용 정리 블로그.
+  AI를 공부하는 학생의 아이디어 메모와 직접 만들어보는 프로그램 제작 기록 블로그.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -227,10 +227,8 @@ exclude:
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories]
   layouts:
     category: category
-    tag: tag
   permalinks:
-    tag: /tags/:name/
     category: /categories/:name/
