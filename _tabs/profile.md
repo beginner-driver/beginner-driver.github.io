@@ -11,15 +11,13 @@ AI 에이전트 서비스를 설계하는 원리를 공부하고, 배운 기술�
 관심 있는 분야는 업무 효율화, 데이터 수집·분석, 그리고 스스로 판단해 일하는 AI 에이전트입니다.
 
 - GitHub: [beginner-driver](https://github.com/beginner-driver)
-- Email: [sukho0106@gmail.com](mailto:sukho0106@gmail.com)
+- Email: [trbien@naver.com](mailto:trbien@naver.com)
 
-## 다룰 수 있는 기술
+## 직접 써 본 기술
 
-| 분야 | 기술 |
-|---|---|
-| 에이전트 설계 | LangGraph, RAG, GraphRAG, HITL, 멀티에이전트, 프롬프트·컨텍스트 설계 |
-| 서비스·배포 | Python, FastAPI, Streamlit, Docker, Google Cloud Run, GitHub Actions, Langfuse |
-| 개발 방식 | Claude Code를 활용한 AI 협업 개발, PRD·설계 문서 작성 |
+- **에이전트** — LangGraph · RAG · GraphRAG · HITL
+- **서비스·배포** — Python · FastAPI · Docker · Cloud Run · GitHub Actions · Langfuse
+- **개발 방식** — Claude Code 협업 개발 · PRD 작성
 
 ## 이 블로그에는
 

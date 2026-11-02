@@ -55,17 +55,7 @@
       {% endif %}
     </div>
 
-    <!-- 라이트/다크 전환 버튼: 사이드바 하단의 테마 메뉴 항목을 그대로 눌러 준다 -->
-    <button
-      type="button"
-      id="topbar-mode"
-      class="btn btn-link"
-      aria-label="라이트/다크 전환"
-      title="라이트/다크 전환"
-      onclick="var m=document.documentElement.getAttribute('data-bs-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.querySelector('.sidebar-bottom .dropdown-item[data-theme-mode='+(m==='dark'?'light':'dark')+']').click();"
-    >
-      <i class="fas fa-circle-half-stroke fa-fw"></i>
-    </button>
+    {% include mode-toggle.html id="topbar-mode" %}
 
     <button type="button" id="search-trigger" class="btn btn-link" aria-label="Search">
       <i class="fas fa-search fa-fw"></i>

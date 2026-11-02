@@ -2,6 +2,7 @@
 title: 사람이 승인하는 AI(HITL) 검증 — 공고문 수정 에이전트로 확인한 세 가지
 date: 2026-09-28 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: agent-team
 description: 위험 판정을 규칙에 맡겨 놓침 0건·헛멈춤 0건을 확인한 공고문 수정 에이전트 검증 기록
 tags: [HITL, LangGraph, Streamlit]
 ---

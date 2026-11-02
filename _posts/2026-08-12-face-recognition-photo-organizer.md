@@ -2,6 +2,7 @@
 title: 얼굴 인식 사진 찾기 검증 — 성공 기준부터 적고 만든 PoC로 확인한 세 가지
 date: 2026-08-12 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: models
 description: 사진을 밖으로 보내지 않는 노트북 CPU 얼굴 인식으로 공개 데이터 400장에서 정밀도 0.980·재현율 1.000을 확인하고, 임계값만으로는 막지 못하는 오탐을 찾은 검증 기록
 tags: [InsightFace, ONNX Runtime, OpenCV, PyQt6, SQLite]
 ---

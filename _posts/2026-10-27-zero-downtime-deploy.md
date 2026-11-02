@@ -2,6 +2,7 @@
 title: 바꾸는 몇 초도 멈추지 않게 — 무중단 배포와 블루그린·카나리
 date: 2026-10-27 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: production
 description: 새 버전으로 바꾸는 동안에도 사용자가 오류를 보지 않도록, 상태를 서버 밖에 두고 준비 조건·전환 방식·롤백 기준을 배포 전에 정하는 무중단 배포의 설계 기준을 정리했다.
 tags: [Cloud Run, Nginx, GitHub Actions, Supabase]
 ---

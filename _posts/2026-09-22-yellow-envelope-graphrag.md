@@ -2,6 +2,7 @@
 title: 관계를 따라 답하는 GraphRAG 검증 — 노란봉투법 입법 과정 지식그래프로 확인한 세 가지
 date: 2026-09-22 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: agent-team
 description: 노란봉투법 입법 과정 문서 51건을 노드 44·엣지 66의 지식그래프로 엮어 골든셋 13문항에서 키워드 검색 RAG 1/13 대비 9/13을 맞히고, 남은 오답이 생성 단계와 채점기에서 나온다는 것을 확인한 검증 기록
 tags: [LangGraph, NetworkX, OpenAI API, Playwright, Streamlit]
 ---

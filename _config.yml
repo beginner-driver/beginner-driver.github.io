@@ -14,9 +14,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: AI 학습 기록 # the main title
+title: AI 에이전트 노트 # the main title
 
-tagline: # it will display as the subtitle
+tagline: 설계 원리 · 서비스 검증 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   AI 에이전트를 설계하는 원리를 배우고, 직접 만들어 실제로 통하는지 검증한 기록
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: 정석호
-  email: sukho0106@gmail.com # change to your email address
+  email: trbien@naver.com # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

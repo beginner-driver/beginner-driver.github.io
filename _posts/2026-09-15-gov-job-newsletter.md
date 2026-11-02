@@ -2,6 +2,7 @@
 title: 공공 채용정보 뉴스레터 검증 — API 세 곳을 LangGraph로 묶어 발행까지 확인한 세 가지
 date: 2026-09-15 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: agent-team
 description: 공공 채용 API 세 곳을 LangGraph 6단계로 묶어 텔레그램 발행까지 돌렸지만, 검수가 걸러 낸 사례는 지어낸 내용이 아니라 대부분 날짜 오판이었음을 확인한 검증 기록
 tags: [LangGraph, OpenAI API, Pydantic, Telegram Bot API]
 ---

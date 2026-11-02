@@ -2,6 +2,7 @@
 title: 사람이 쓰던 특허 검색식을 도구로 옮긴 검증 — 연구자 특허 모니터링으로 확인한 세 가지
 date: 2026-10-14 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: agent-team
 description: 연구자 78명의 특허를 사람이 쓰던 검색식과 Espacenet OPS 도구로 같은 조건에서 비교해, 그대로 옮기면 본인 특허 37건을 놓치던 원인을 분류 기록 차이에서 찾고 조건을 고쳐 913건 모두 찾은 검증 기록
 tags: [Espacenet OPS, BigQuery]
 ---

@@ -17,13 +17,21 @@
 
 /* append your custom style below */
 
-/* 사이드바 상단 프로필(사진 자리·블로그 이름) 숨기기. 브라우저 탭·검색 결과의 사이트 이름은 그대로 */
+/* 사이드바 윗부분: 아이콘·이름·부제를 가운데로, 이름은 조금 작게 */
 #sidebar .profile-wrapper {
-  display: none;
-}
+  text-align: center;
 
-#sidebar nav {
-  margin-top: 2rem;
+  #avatar {
+    border: 0;
+    box-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .site-title {
+    font-size: 1.35rem;
+    width: 100%;
+  }
 }
 
 /* 홈 소개 블록 */
@@ -109,9 +117,23 @@ h4,
   margin-bottom: 0.25rem;
 }
 
-/* 상단 ◐ 버튼: 검색 옆에 고정 + 키보드 포커스 표시 */
+/* 라이트/다크 버튼 (_includes/mode-toggle.html): 휴대폰은 위쪽 막대, 데스크톱은 사이드바 아래 */
 #topbar-mode {
   margin-left: auto;
+
+  @media (min-width: 850px) { display: none !important; }
+}
+
+.mode-btn {
+  border: 1px solid var(--link-color);
+  border-radius: 999px;
+  padding: 0.2rem 0.65rem;
+  color: var(--link-color);
+  font-size: 1.05rem;
+
+  &.btn { color: var(--link-color); display: inline-flex; align-items: center; }
+
+  .mode-sun { display: none; }
 
   &:focus-visible {
     outline: 2px solid var(--link-color);
@@ -134,4 +156,81 @@ h4,
   :root:not([data-bs-theme='light']) {
     --text-muted-color: #a0a0a0;
   }
+}
+
+/* 카테고리 페이지 = 주제별 학습 지도 (_layouts/categories.html) */
+.topic-map-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.topic-map {
+  margin-bottom: 1rem;
+
+  .topic-map-title {
+    font-size: 1.15rem;
+    margin: 0 0 0.25rem;
+
+  }
+
+  .topic-map-desc {
+    color: var(--text-muted-color);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .topic-map-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    @media (max-width: 576px) { grid-template-columns: 1fr; }
+  }
+
+  .topic-map-label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--link-color);
+    margin-bottom: 0.25rem;
+  }
+
+  ul {
+    padding-left: 1.1rem;
+    margin: 0;
+  }
+
+  li { margin: 0.2rem 0; }
+}
+
+/* 사이드바 부제: 한글은 기울임 글꼴이 없어 억지로 기울어 보여서 똑바로 */
+#sidebar .site-subtitle {
+  font-style: normal !important;
+  word-break: keep-all;
+}
+
+/* 버튼 아이콘: 다크 화면이면 해, 라이트 화면이면 달 */
+:root[data-bs-theme='dark'] .mode-btn {
+  .mode-sun { display: block; }
+  .mode-moon { display: none; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-bs-theme='light']) .mode-btn {
+    .mode-sun { display: block; }
+    .mode-moon { display: none; }
+  }
+}
+
+/* 사이드바 아래 버튼(연락처 아이콘 줄 맨 끝)은 옆 아이콘(28px 원)과 같은 크기로, 테두리만 파랑 */
+#sidebar-mode {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  margin: 0 0.8rem 0.5rem 0; /* 옆 아이콘과 같은 바깥 여백이어야 줄이 맞는다 */
+  border-radius: 50%;
+  justify-content: center;
+
+  svg { width: 16px; height: 16px; }
 }

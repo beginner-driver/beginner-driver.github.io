@@ -1,0 +1,48 @@
+---
+layout: page
+# 테마 오버라이드: 카테고리 목록 대신 주제별 학습 지도. 주제 순서·설명은 _data/topics.yml, 글은 front matter `topic:`으로 묶는다.
+---
+
+{% assign theory = 'AI 설계 원리' %}
+{% assign verify = 'AI 서비스 검증' %}
+{% assign cat_names = 'AI 설계 원리|AI 서비스 검증' | split: '|' %}
+
+<div class="topic-map-cats">
+  {% for name in cat_names %}
+    <a class="btn btn-sm btn-outline-primary" href="{{ site.baseurl }}/categories/{{ name | slugify | url_encode }}/">
+      {{ name }} <span class="text-muted">{{ site.categories[name] | size }}</span>
+    </a>
+  {% endfor %}
+</div>
+
+{% assign all_posts = site.posts | sort: 'date' %}
+
+{% for topic in site.data.topics %}
+  {% assign in_topic = all_posts | where: 'topic', topic.key %}
+  {% assign t_posts = in_topic | where_exp: 'p', 'p.categories[0] == theory' %}
+  {% assign v_posts = in_topic | where_exp: 'p', 'p.categories[0] == verify' %}
+  <section class="topic-map card">
+    <div class="card-body">
+      <h2 class="topic-map-title">{{ topic.name }}</h2>
+      <p class="topic-map-desc">{{ topic.desc }}</p>
+      <div class="topic-map-cols">
+        <div>
+          <div class="topic-map-label">설계 원리</div>
+          <ul>
+            {% for p in t_posts %}
+              <li><a href="{{ p.url | relative_url }}">{{ p.title | split: ' — ' | first }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div>
+          <div class="topic-map-label">서비스 검증</div>
+          <ul>
+            {% for p in v_posts %}
+              <li><a href="{{ p.url | relative_url }}">{{ p.title | split: ' — ' | first }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endfor %}

@@ -2,6 +2,7 @@
 title: AI 친구 에이전트 배포 검증 — 테스트·이미지 승격·무중단 배포로 확인한 세 가지
 date: 2026-10-29 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: production
 description: AI 친구 에이전트에 CI 테스트·staging·이미지 승격·0% 배포·롤백을 차례로 붙여, 시작은 되지만 틀린 변경을 CI가 막고 배포 중 요청 실패가 70/293에서 0건이 되는 것을 확인한 검증 기록
 tags: [Cloud Run, GitHub Actions, Docker, Artifact Registry, FastAPI, pytest]
 ---

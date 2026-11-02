@@ -2,6 +2,7 @@
 title: 근거를 좁혀 답하는 문의 응대 에이전트 검증 — 초기창업패키지 공고로 확인한 세 가지
 date: 2026-09-17 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: agent-team
 description: 창업지원 공고 문의를 6개 카테고리로 나눠 근거를 좁혀 답하게 한 에이전트에서 평가 20건 답변 적절성이 0.40~0.50에서 1.000으로 오르는 것을 확인하고, 낮은 점수의 대부분이 채점기 오판이었음을 찾은 검증 기록
 tags: [LangGraph, LangChain, OpenAI API, Pydantic, Streamlit, pdfplumber]
 ---

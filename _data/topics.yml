@@ -1,0 +1,19 @@
+# 카테고리 페이지(학습 지도)의 주제 순서와 설명. 글 front matter의 `topic:` 값이 key와 맞아야 지도에 나온다.
+- key: planning
+  name: 기획과 AI 협업 개발
+  desc: 무엇을 만들지 정하고, 코딩 에이전트와 함께 만드는 방법
+- key: models
+  name: 모델과 입력
+  desc: 어떤 모델을 어디서 돌리고, 문서·사진·소리를 어떻게 다루는지
+- key: prompt-tools
+  name: 프롬프트와 도구 설계
+  desc: 지시·맥락·도구를 설계해 모델이 근거대로 일하게 하는 방법
+- key: agent-basics
+  name: 에이전트의 구조
+  desc: 자동화와 에이전트의 경계, 모델을 감싼 실행 환경과 연결 규격
+- key: agent-team
+  name: 에이전트 팀과 품질
+  desc: 흐름을 그래프로 짜고, 나누고, 근거를 붙이고, 사람이 승인하고, 품질을 재는 방법
+- key: production
+  name: 배포와 운영
+  desc: 만든 기능을 서비스로 열고, 멈추지 않게 배포하고, 운영 중 문제를 찾는 방법

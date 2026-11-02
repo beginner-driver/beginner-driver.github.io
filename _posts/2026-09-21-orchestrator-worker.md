@@ -2,6 +2,7 @@
 title: 일을 나눠 맡기고 다시 모으기 — 오케스트레이터와 워커
 date: 2026-09-21 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: agent-team
 description: 한 창에 안 들어가는 일을 오케스트레이터가 나눠 워커에게 동시에 맡기는 구조를, 나눌지 판정하는 기준·돌려받을 것·재위임과 종료 조건·장치별 절제 실험으로 정리했다.
 tags: [LangGraph, Claude Agent SDK, A2A]
 ---

@@ -2,6 +2,7 @@
 title: 나눠서 조사하는 딥리서치 에이전트 검증 — 개인정보 보호법 제개정 연혁으로 확인한 세 가지
 date: 2026-09-23 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: agent-team
 description: 개인정보 보호법 제개정 연혁을 코디네이터와 조사관으로 나눠 조사하게 해 보니, 나누는 이득은 여러 갈래 질문에서만 났고 장치 중에서는 배정·구역만 세 질문 모두에서 효과를 낸 검증 기록
 tags: [LangGraph, LangChain, OpenAI API, Streamlit]
 ---

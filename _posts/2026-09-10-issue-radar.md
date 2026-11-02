@@ -2,6 +2,7 @@
 title: 판단할 곳에만 AI를 둔 워크플로 검증 — 뉴스 모니터링 이슈 레이더로 확인한 세 가지
 date: 2026-09-10 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: agent-basics
 description: 판단 구간만 로컬 4B 모델에 맡긴 뉴스 모니터링 워크플로에서 하루치 63묶음 누락률 7.9%를 확인하고, 기존 수집 코드가 놓치던 기사 77건을 되찾은 검증 기록
 tags: [Ollama, Qwen, Naver Search API, SQLite, Streamlit]
 ---

@@ -2,6 +2,7 @@
 title: 근거로만 답하는 RAG 챗봇 검증 — Claude Code 안내봇으로 확인한 세 가지
 date: 2026-08-29 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: prompt-tools
 description: Claude Code 공식 문서 29개 청크로 만든 로컬 RAG 챗봇에서 범위 밖 질문 3건 모두 답을 보류하는 것을 확인하고, 유사도 임계값과 같은 모델 자동 채점의 한계를 찾은 검증 기록
 tags: [Ollama, Qwen, Transformers.js, EmbeddingGemma, React, Vite, GitHub Pages]
 ---

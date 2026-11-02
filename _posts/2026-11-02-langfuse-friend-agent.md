@@ -2,6 +2,7 @@
 title: Langfuse 관측 검증 — AI 친구 에이전트에 붙여 확인한 세 가지
 date: 2026-11-02 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: production
 description: Cloud Run에서 도는 AI 친구 에이전트에 Langfuse 트레이스를 붙였다가 기록이 절반 가까이 사라지는 문제를 만나, 교안의 flush가 아니라 요청 추적 표본(sampled=0)이 원인이었음을 재현으로 확인한 검증 기록
 tags: [Langfuse, OpenTelemetry, Cloud Run, FastAPI, pytest]
 ---

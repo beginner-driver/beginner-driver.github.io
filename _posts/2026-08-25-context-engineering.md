@@ -2,6 +2,7 @@
 title: 많이 넣는다고 잘 읽지 않는다 — 컨텍스트 엔지니어링으로 이번 호출에 넣을 것 고르기
 date: 2026-08-25 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: prompt-tools
 description: 모델은 이번 호출에 넣은 텍스트만 읽는다는 전제에서, 무엇을 넣고·빼고·이어 갈지 정하는 컨텍스트 엔지니어링의 판단 기준을 정리했다.
 tags: [RAG, LangChain, Prompt Caching]
 ---

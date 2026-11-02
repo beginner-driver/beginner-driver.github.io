@@ -2,6 +2,7 @@
 title: 에이전트에게 도구를 줄 때 정할 것 — 계약·권한·기록·중단
 date: 2026-08-26 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: prompt-tools
 description: 모델은 도구를 실행하지 않고 호출을 요청할 뿐이라, 도구를 준다는 건 설명·스키마·권한·기록·중단을 함께 설계하는 일이라는 점을 정리했다.
 tags: [Function Calling, MCP, LangChain, Ollama]
 ---

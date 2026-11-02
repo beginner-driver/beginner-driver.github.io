@@ -2,6 +2,7 @@
 title: AI에게 파일을 줄 때 먼저 정할 것 — 문서·사진·소리·공간에서 꺼내는 답의 모양
 date: 2026-08-09 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: models
 description: 문서·사진·소리·공간을 다루는 AI를 "답의 자료형(값·위치·경계·글자·거리)"으로 나누고, 자료형마다 도구와 검증 방법을 고르는 기준을 정리했다.
 tags: [Tesseract, PaddleOCR, YOLO, SAM, Whisper, ControlNet, Gaussian Splatting]
 ---

@@ -2,6 +2,7 @@
 title: PRD 먼저 쓰고 AI와 만들기 검증 — 유튜브 채널 카테고리 서비스로 확인한 세 가지
 date: 2026-07-22 20:00:00 +0900
 categories: [AI 서비스 검증]
+topic: planning
 description: PRD의 "이번엔 안 만들 것" 목록으로 범위를 지켰고, AI가 짠 코드는 바깥 서비스와 만나는 경계에서 깨진다는 것을 확인한 검증 기록
 tags: [Next.js, Auth.js, Prisma, Supabase, YouTube Data API, Vercel]
 ---

@@ -2,6 +2,7 @@
 title: 문의를 나누고 근거로만 답하기 — 라우팅과 그라운딩
 date: 2026-09-16 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: agent-team
 description: 문의를 몇 갈래로 나눠 갈래마다 다른 근거를 붙이는 라우팅과, 그 근거 밖의 내용을 지어내지 못하게 막는 그라운딩의 설계 기준을 정리했다.
 tags: [LangGraph, LangChain, scikit-learn]
 ---

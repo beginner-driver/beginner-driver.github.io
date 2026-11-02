@@ -2,6 +2,7 @@
 title: 지시는 부품으로, 답은 계약으로 — 시스템 프롬프트와 구조화 출력
 date: 2026-08-23 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: prompt-tools
 description: 시스템 프롬프트를 역할·과업·형식·제약 네 부품으로 나눠 쓰고, 프로그램이 받을 답은 스키마와 검사기로 모양을 약속하는 방법을 정리했다.
 tags: [JSON Schema, Structured Outputs]
 ---

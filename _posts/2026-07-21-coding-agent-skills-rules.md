@@ -2,6 +2,7 @@
 title: 같은 설명을 두 번 하지 않게 — 코딩 에이전트의 규칙 파일과 스킬
 date: 2026-07-21 20:00:00 +0900
 categories: [AI 설계 원리]
+topic: planning
 description: 프로젝트 안내는 규칙 파일(CLAUDE.md·AGENTS.md)에, 반복 작업은 스킬(SKILL.md)에 적어 코딩 에이전트에게 매번 같은 설명을 하지 않는 방법을 정리했다.
 tags: [Claude Code, AGENTS.md, Agent Skills]
 ---
