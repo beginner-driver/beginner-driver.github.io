@@ -14,12 +14,12 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: beginner-driver # the main title
+title: AI 학습 기록 # the main title
 
-tagline: AI를 공부하며 남기는 생각과 도구 활용 기록 # it will display as the subtitle
+tagline: # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  AI를 공부하는 학생의 아이디어 메모와 직접 만들어보는 프로그램 제작 기록 블로그.
+  모두의연구소 AI 에이전트 과정에서 배운 이론과, 직접 만들어 검증한 AI 서비스 기록.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -221,14 +221,17 @@ exclude:
   - docs
   - tools
   - README.md
+  - _drafts/README.md
   - LICENSE
   - purgecss.js
   - "*.config.js"
   - "package*.json"
 
 jekyll-archives:
-  enabled: [categories]
+  enabled: [categories, tags]
   layouts:
     category: category
+    tag: tag
   permalinks:
+    tag: /tags/:name/
     category: /categories/:name/

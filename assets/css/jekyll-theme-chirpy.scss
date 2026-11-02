@@ -1,0 +1,90 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* 사이드바 상단 프로필(사진 자리·블로그 이름) 숨기기. 브라우저 탭·검색 결과의 사이트 이름은 그대로 */
+#sidebar .profile-wrapper {
+  display: none;
+}
+
+#sidebar nav {
+  margin-top: 2rem;
+}
+
+/* 홈 소개 블록 */
+#home-intro {
+  margin: 1rem 0 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--categories-border);
+
+  /* 제목과 버튼을 한 줄에, 좁은 화면에서는 버튼이 아래로 내려감 */
+  .home-intro-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    word-break: keep-all;
+  }
+
+  p {
+    margin: 0;
+    color: var(--text-muted-color);
+    word-break: keep-all;
+  }
+
+  .home-intro-links {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+
+/* 글 본문 중제목: 번호(01, 02…) + 아래 구분선 */
+article[data-toc] .content {
+  counter-reset: h2;
+}
+
+article[data-toc] .content > h2 {
+  counter-increment: h2;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--categories-border);
+}
+
+article[data-toc] .content > h2::before {
+  content: counter(h2, decimal-leading-zero);
+  margin-right: 0.6rem;
+  color: var(--link-color);
+  font-weight: 700;
+}
+
+/* 표 안의 긴 문장은 줄바꿈 (테마 기본값은 한 줄로 늘어나 잘림) */
+.content .table-wrapper > table tbody tr td {
+  white-space: normal;
+  word-break: keep-all; /* 한글 단어 중간에서 끊지 않기 */
+  min-width: 6rem;
+}
+
+/* 소제목: 왼쪽 강조선 */
+article[data-toc] .content > h3 {
+  padding-left: 0.6rem;
+  border-left: 3px solid var(--link-color);
+}

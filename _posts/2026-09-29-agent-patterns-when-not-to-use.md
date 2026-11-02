@@ -1,7 +1,9 @@
 ---
 title: 다섯 가지 에이전트 패턴, 언제 쓰고 언제 쓰면 안 될까
 date: 2026-09-29 15:00:00 +0900
-categories: [생각]
+categories: [이론 정리]
+description: 다섯 가지 에이전트 패턴을 "쓰면 안 되는 순간" 기준으로 정리했다.
+tags: [LangGraph, GraphRAG, HITL]
 ---
 
 오늘로 "에이전트 팀 꾸리기" 모듈을 다 끝냈다. 5개 노드를 순서대로 따라가며 LangGraph 기초부터 라우팅, GraphRAG, 오케스트레이터-워커, Human-in-the-Loop까지 만들어봤는데, 다 만들고 나니 이상한 자신감이 생겼다. "이제 뭐든 에이전트로 만들 수 있겠는데?"
