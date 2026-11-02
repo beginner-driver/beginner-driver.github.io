@@ -24,23 +24,5 @@ def yt_architecture(t):
     return d, 820, 340, "서비스 구조와 깨진 지점", "화면과 API Routes는 Next.js 하나로 만들고, 바깥 서비스 세 곳과 만나는 경계에서 버그 세 개가 나온 구조"
 
 
-def yt_feed(t):
-    d = D(t)
-    d.line("M112,64 H134")
-    d.line("M264,64 H286")
-    d.line("M416,64 H438")
-    d.line("M568,64 H590")
-    d.line("M720,64 H742")
-    d.line("M352,92 V124", accent=True, dashed=True)
-    d.label(222, 128, 260, "", accent=True, lines=["채널마다 최근 5개만 가져온다", "→ 오래된 즐겨찾기는 피드에서 빠진다"])
-    d.oval(16, 40, 96, 48, "피드 열기")
-    d.rect(136, 36, 128, 56, "내 채널", sub="DB · Channel")
-    d.rect(288, 36, 128, 56, "최신 영상 5개", sub="playlistItems", focal=True)
-    d.rect(440, 36, 128, 56, "영상 길이", sub="videos.list")
-    d.rect(592, 36, 128, 56, "체크·하트", sub="DB · VideoStatus")
-    d.oval(744, 40, 96, 48, "최신순 표시")
-    return d, 856, 176, "카테고리 피드를 여는 순서", "DB에서 채널을 읽고 유튜브 API로 채널별 최신 영상 5개와 길이를 가져온 뒤 체크와 즐겨찾기 상태를 합쳐 최신순으로 보여주는 흐름"
-
-
 if __name__ == "__main__":
-    build([("yt-architecture", yt_architecture), ("yt-feed", yt_feed)])
+    build([("yt-architecture", yt_architecture)])
