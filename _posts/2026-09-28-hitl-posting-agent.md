@@ -2,23 +2,22 @@
 title: 사람이 승인하는 AI(HITL) 검증 — 공고문 수정 에이전트로 확인한 세 가지
 date: 2026-09-28 20:00:00 +0900
 categories: [AI 서비스 검증]
-description: 위험 판정을 규칙에 맡겨 놓침 0건·헛멈춤 0건을 확인한 공고문 수정 에이전트 검증 기록.
+description: 위험 판정을 규칙에 맡겨 놓침 0건·헛멈춤 0건을 확인한 공고문 수정 에이전트 검증 기록
 tags: [HITL, LangGraph, Streamlit]
 ---
-
-> 제작: 2026-09-28 · 정리: 2026-11 · 모두의연구소 AI 에이전트 과정 「에이전트 팀 꾸리기」 · 저장소: [beginner-driver/Posting-Hitl-Agent](https://github.com/beginner-driver/Posting-Hitl-Agent)
-{: .prompt-info }
 
 ## 한 줄 소개
 
 **HITL(사람이 중간에 승인하는 방식) 이론이 실제 업무에서도 통하는지 확인하려고 채용 공고 수정 에이전트를 만들어 검증했다.** 마감일·급여·자격요건이 바뀌는 수정은 게시 직전에 멈춰서 사람의 승인을 받고, 오탈자나 띄어쓰기 교정은 바로 반영된다.
+
+저장소: [beginner-driver/Posting-Hitl-Agent](https://github.com/beginner-driver/Posting-Hitl-Agent)
 
 > **검증한 것:** 규칙 판정으로 놓침·헛멈춤 통제 ✅ · 승인 후 같은 작업이 두 번 실행되는 문제를 설계로 차단 ✅ · "다시 판정" 버튼의 필요성 ✅
 >
 > **발견한 것:** 기다리는 동안 공고가 먼저 바뀌는 문제 · 멈춘 이유의 종류를 화면에서 구분해야 하는 문제
 {: .prompt-tip }
 
-## 왜 만들었나
+## 만든 이유
 
 [HITL 이론](/posts/hitl-theory/)을 배우고 나서 세 가지가 궁금했다.
 

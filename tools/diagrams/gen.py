@@ -155,11 +155,17 @@ svg{{width:100%;min-width:{w}px;display:block}}
 </div></body></html>
 """
 
-for name, fn in [("hitl-concept", hitl_concept), ("hitl-pipeline", hitl_pipeline)]:
-    for skin, t in SKINS.items():
-        d, w, h, title, desc = fn(t)
-        slug = f"{name}-{skin}"
-        html = PAGE.format(title=title, paper=t["paper"], ink=t["ink"], sans=SANS, w=w,
-                           svg=d.svg(slug, w, h, title, desc))
-        (OUT / f"{slug}.html").write_text(html, encoding="utf-8")
-        print("wrote", slug)
+def build(diagrams):
+    """Write <name>-light/dark.html for each (name, fn). Render PNGs with shot.py."""
+    for name, fn in diagrams:
+        for skin, t in SKINS.items():
+            d, w, h, title, desc = fn(t)
+            slug = f"{name}-{skin}"
+            html = PAGE.format(title=title, paper=t["paper"], ink=t["ink"], sans=SANS, w=w,
+                               svg=d.svg(slug, w, h, title, desc))
+            (OUT / f"{slug}.html").write_text(html, encoding="utf-8")
+            print("wrote", slug)
+
+
+if __name__ == "__main__":
+    build([("hitl-concept", hitl_concept), ("hitl-pipeline", hitl_pipeline)])
