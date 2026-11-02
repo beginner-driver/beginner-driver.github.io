@@ -1,7 +1,7 @@
 ---
 title: 에이전트는 어디서 멈추고 승인받나 — HITL
 date: 2026-09-26 20:00:00 +0900
-categories: [이론 정리]
+categories: [AI 이론 정리]
 description: AI가 되돌릴 수 없는 일 직전에만 멈춰 사람에게 묻는 방법, HITL의 개념과 설계 기준을 정리했다.
 tags: [HITL, LangGraph]
 ---

@@ -1,7 +1,7 @@
 ---
 title: 다섯 가지 에이전트 패턴, 언제 쓰고 언제 쓰면 안 될까
 date: 2026-09-29 15:00:00 +0900
-categories: [이론 정리]
+categories: [AI 이론 정리]
 description: 다섯 가지 에이전트 패턴을 "쓰면 안 되는 순간" 기준으로 정리했다.
 tags: [LangGraph, GraphRAG, HITL]
 ---
