@@ -1,7 +1,7 @@
 ---
 title: 내 컴퓨터 밖에서 계속 돌게 하기 — Cloud Run 배포와 운영 설정
 date: 2026-10-19 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: AI 서비스를 서버리스 컨테이너인 Cloud Run에 올릴 때 배포 명령 하나가 만드는 다섯 가지와, 느리고 매번 돈이 드는 AI 서비스에 맞춰 타임아웃·인스턴스·동시성·저장 위치·로그를 정하는 기준을 정리했다.
 tags: [Cloud Run, Cloud Build, FastAPI]
 ---

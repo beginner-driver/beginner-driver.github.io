@@ -1,7 +1,7 @@
 ---
 title: AI에게 맡기기 전에 — 풀 문제를 고르고 PRD 한 장으로 정하기
 date: 2026-07-11 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: AI에게 "만들어 줘"라고 하기 전에 풀 문제를 고르고, 쪼개고, PRD 한 장으로 범위를 정하는 방법을 정리했다.
 tags: [PRD, MoSCoW, Claude Code]
 ---

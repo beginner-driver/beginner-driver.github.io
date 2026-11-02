@@ -1,7 +1,7 @@
 ---
 title: 그래프로 그리는 에이전트 작업 순서 — LangGraph 워크플로 설계
 date: 2026-09-13 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: LLM 작업을 State·Node·Edge 그래프로 그려 분기·반복·병렬을 코드가 통제하게 하는 LangGraph의 구조와, 리듀서·Send·종료 조건을 정하는 기준을 정리했다.
 tags: [LangGraph, LangSmith]
 ---

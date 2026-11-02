@@ -1,7 +1,7 @@
 ---
 title: 공개 주소를 열기 전에 막을 세 구멍 — 비용 상한·키 관리·프롬프트 인젝션
 date: 2026-10-30 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: AI 서비스를 공개 주소로 열 때 돈·키·지시가 새는 세 구멍을, 알림이나 문구가 아니라 실제로 막는 장치(제공사 사용 한도, 시크릿 참조와 최소 권한, 신뢰 경계와 승인) 기준으로 정리했다.
 tags: [Cloud Run, Secret Manager, Workload Identity Federation, GitHub Actions]
 ---

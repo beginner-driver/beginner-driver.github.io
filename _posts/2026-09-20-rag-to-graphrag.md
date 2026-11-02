@@ -1,7 +1,7 @@
 ---
 title: 찾는 대신 이어 걷기 — RAG에서 GraphRAG로 넘어가는 기준
 date: 2026-09-20 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: 문서 두 개를 이어 붙여야 답이 나오는 질문에서 벡터 RAG가 막히는 지점과, 문서를 미리 사실 단위로 쪼개 그래프로 잇는 GraphRAG의 구축·검색·평가 기준을 정리했다.
 tags: [GraphRAG, LangChain, NetworkX, LangGraph, RAGAS]
 ---

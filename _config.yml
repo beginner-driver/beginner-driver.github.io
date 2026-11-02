@@ -19,7 +19,7 @@ title: AI 학습 기록 # the main title
 tagline: # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  모두의연구소 AI 에이전트 과정에서 배운 이론과, 직접 만들어 검증한 AI 서비스 기록
+  AI 에이전트를 설계하는 원리를 배우고, 직접 만들어 실제로 통하는지 검증한 기록
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

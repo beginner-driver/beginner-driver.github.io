@@ -1,7 +1,7 @@
 ---
 title: 머지하면 같은 순서로 나간다 — CI/CD와 Docker로 배포 경로 고정하기
 date: 2026-10-23 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: 배포를 사람 손에서 저장소 파일로 옮기는 CI/CD와, 실행 환경을 Dockerfile로 고정하고 한 번 만든 이미지를 staging에서 production으로 승격하는 기준을 정리했다.
 tags: [GitHub Actions, Docker, Cloud Run, Artifact Registry, pytest]
 ---

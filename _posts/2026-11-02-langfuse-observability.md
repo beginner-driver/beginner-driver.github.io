@@ -1,7 +1,7 @@
 ---
 title: 로그로는 안 보이는 문제 — Langfuse로 에이전트 관측하기
 date: 2026-11-02 12:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: 요청은 성공(200)했는데 답이 이상한 LLM 서비스의 문제를, 메시지 하나가 거친 단계를 트레이스로 남겨 처음 어긋난 단계부터 찾는 관측 설계로 정리했다.
 tags: [Langfuse, OpenTelemetry, Cloud Run]
 ---

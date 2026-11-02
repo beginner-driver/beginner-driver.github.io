@@ -1,7 +1,7 @@
 ---
 title: 같은 모델인데 결과가 다른 이유 — 에이전트 하네스를 기능으로 나눠 보고 실험으로 고치기
 date: 2026-09-02 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: 모델을 감싼 실행 환경인 하네스를 일곱 기능으로 나눠 병목을 찾고, 기능 하나만 바꾸는 실험으로 효과를 판정하는 방법을 정리했다.
 tags: [Claude Code, SWE-agent, Aider, OpenCode]
 ---

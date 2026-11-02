@@ -1,7 +1,7 @@
 ---
 title: 클라우드 API로 쓸까, 내 컴퓨터에서 돌릴까 — LLM 실행 위치 정하기
 date: 2026-08-02 20:00:00 +0900
-categories: [AI 이론 정리]
+categories: [AI 설계 원리]
 description: LLM을 어디서 돌릴지 모델 이름이 아니라 데이터·비용·통제권 세 축으로 정하는 방법과, 로컬 실행에 필요한 메모리 계산을 정리했다.
 tags: [Ollama, llama.cpp, GGUF]
 ---
